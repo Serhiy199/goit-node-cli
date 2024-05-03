@@ -1,5 +1,5 @@
 import { program } from 'commander';
-import contacts from './contacts.js';
+import contacts from './src/contacts.js';
 program
     .option('-a, --action <type>', 'choose action')
     .option('-i, --id <type>', 'user id')
