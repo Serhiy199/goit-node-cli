@@ -1,0 +1,15 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergiy Horodetskiy <bryklin.best.1994@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
