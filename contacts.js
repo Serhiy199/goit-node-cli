@@ -2,7 +2,7 @@ import * as fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
-const contactsPath = path.resolve('src', 'db', 'contacts.json');
+const contactsPath = path.resolve('db', 'contacts.json');
 
 async function listContacts() {
     const arrContacts = await fs.readFile(contactsPath, { encoding: 'utf-8' });
